@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Fechas</title>
+</head>
+<body>
+    <div th:object="${clave_fecha}">
+        <label>Primer Fecha</label>
+        <h3 th:text="*{fecha1}">Primer Fecha</h3>
+        <label>Segunda Fecha</label>
+        <h3 th:text="*{fecha2}">Segunda Fecha</h3>
+        <label>Primer Mensaje</label>
+        <h3 th:text="*{mensaje1}">Primer Mensaje</h3>
+        <label>Segundo Mensaje</label>
+        <h3 th:text="*{mensaje2}">Segundo Mensaje</h3>
+    </div>
+</body>
+</html>
